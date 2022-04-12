@@ -15,7 +15,7 @@ window.TrelloPowerUp.initialize({
             dynamic: function () {
               return {
                 text: getCardMomentTime(card_id),
-                icon: "assests/created_at.svg",
+                icon: window.location.href + "/assests/created_at.png",
                 refresh: 30, // in seconds
               };
             },
